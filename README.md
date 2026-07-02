@@ -6,22 +6,12 @@
   └─────────────────────────────────────────────────────────────┘
 -->
 
-<!-- ░░ TYPING HEADER (animated) ░░ -->
+<!-- ░░ ANIMATED TERMINAL HEADER — custom SVG committed to this repo (survives GitHub) ░░ -->
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=26&pause=1000&color=3FB950&center=true&vCenter=true&width=650&lines=Full-Stack+Software+Engineer;MERN+Stack+Developer;Real-time+app+builder;Java+%2B+Python+enthusiast" alt="typing header" />
+<img src="https://raw.githubusercontent.com/DeepanshAgarwal/DeepanshAgarwal/main/assets/terminal-header.svg" width="860" alt="Deepansh Agarwal — terminal header" />
 
 </div>
-
-<!-- ░░ ASCII BANNER ░░ -->
-```
-  ____                                    _
- |  _ \  ___  ___ _ __   __ _ _ __  ___  | |__
- | | | |/ _ \/ _ \ '_ \ / _` | '_ \/ __| | '_ \
- | |_| |  __/  __/ |_) | (_| | | | \__ \ | | | |
- |____/ \___|\___| .__/ \__,_|_| |_|___/ |_| |_|
-                 |_|   full-stack · mern · java · python
-```
 
 ## `$ whoami`
 

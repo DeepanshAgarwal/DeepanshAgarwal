@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  * { box-sizing: border-box; }
+  body { margin: 0; background: #010409; }
+</style>
+</helmet>
+
+<div style="min-height:100vh; background:#010409; font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif; padding:0 0 80px;">
+
+  <!-- honesty banner -->
+  <div style="background:#161b22; border-bottom:1px solid #30363d; padding:14px 24px; display:flex; align-items:center; gap:12px; justify-content:center;">
+    <span style="width:8px;height:8px;border-radius:50%;background:#3fb950;box-shadow:0 0 8px #3fb950;"></span>
+    <span style="color:#7d8590; font-size:13px; font-family:'JetBrains Mono',monospace;">Real GitHub-rendered result — images + markdown only, exactly what appears on your profile. No custom CSS is used here.</span>
+  </div>
+
+  <!-- github profile chrome -->
+  <div style="max-width:1280px; margin:0 auto; padding:24px; display:flex; gap:24px;">
+
+    <!-- left profile sidebar (mimics github) -->
+    <div style="width:296px; flex:0 0 auto; padding-top:8px;">
+      <img src="https://avatars.githubusercontent.com/u/131392130?v=4" alt="Deepansh" style="width:100%; border-radius:50%; border:1px solid #30363d; display:block;">
+      <div style="color:#e6edf3; font-size:24px; font-weight:600; margin-top:16px;">Deepansh Agarwal</div>
+      <div style="color:#7d8590; font-size:20px; font-weight:300;">DeepanshAgarwal</div>
+      <div style="color:#e6edf3; font-size:14px; margin-top:16px; line-height:1.5;">Full Stack Software Engineer | MERN | Java | Python</div>
+      <button style="width:100%; margin-top:16px; background:#21262d; color:#e6edf3; border:1px solid #f0f6fc1a; border-radius:6px; padding:5px; font-size:14px; font-weight:500;">Follow</button>
+      <div style="color:#7d8590; font-size:14px; margin-top:14px; display:flex; align-items:center; gap:6px;">
+        <span style="color:#e6edf3; font-weight:600;">1</span> follower · <span style="color:#e6edf3; font-weight:600;">0</span> following
+      </div>
+    </div>
+
+    <!-- main column: the README render -->
+    <div style="flex:1; min-width:0;">
+      <div style="display:flex; align-items:center; gap:8px; color:#7d8590; font-size:14px; margin-bottom:12px;">
+        <svg height="16" viewBox="0 0 16 16" width="16" fill="#7d8590"><path d="M0 1.75A.75.75 0 0 1 .75 1h4.253c1.227 0 2.317.59 3 1.501A3.743 3.743 0 0 1 11.006 1h4.245a.75.75 0 0 1 .75.75v10.5a.75.75 0 0 1-.75.75h-4.507a2.25 2.25 0 0 0-1.591.659l-.622.621a.75.75 0 0 1-1.06 0l-.622-.621A2.25 2.25 0 0 0 5.258 13H.75a.75.75 0 0 1-.75-.75Zm7.251 10.324.004-5.073-.002-2.253A2.25 2.25 0 0 0 5.003 2.5H1.5v9h3.757a3.75 3.75 0 0 1 1.994.574ZM8.755 4.75l-.004 7.322a3.752 3.752 0 0 1 1.992-.572H14.5v-9h-3.495a2.25 2.25 0 0 0-2.25 2.25Z"></path></svg>
+        <span style="color:#e6edf3;">DeepanshAgarwal</span> / README.md
+      </div>
+
+      <!-- README CARD (github markdown body) -->
+      <div style="border:1px solid #30363d; border-radius:6px; background:#0d1117; padding:32px 40px 40px; color:#e6edf3; font-size:16px; line-height:1.6;">
+
+        <!-- animated terminal header SVG -->
+        <div style="text-align:center; margin-bottom:8px;">
+          <img src="assets/terminal-header.svg" alt="terminal header" style="width:100%; max-width:860px;">
+        </div>
+
+        <!-- $ whoami -->
+        <h2 style="font-size:24px; font-weight:600; border-bottom:1px solid #21262d; padding-bottom:8px; margin:24px 0 16px; font-family:'JetBrains Mono',monospace; color:#e6edf3;"><span style="color:#7ee787;">$</span> whoami</h2>
+        <blockquote style="margin:0 0 16px; border-left:4px solid #30363d; padding:0 16px; color:#8b949e;">
+          Full Stack Software Engineer building real-time and AI-powered web apps across the MERN stack, with <strong style="color:#c9d1d9;">Java</strong> &amp; <strong style="color:#c9d1d9;">Python</strong> in the toolbox. I ship end-to-end products — from auth systems to 3D interfaces — and learn by building.
+        </blockquote>
+        <p style="margin:0 0 4px; color:#c9d1d9; font-size:15px;">📍 BITS Pilani &nbsp;·&nbsp; 🌐 <a href="https://deepansh-agarwal-portfolio.vercel.app/" style="color:#2f81f7; text-decoration:none;">Portfolio</a> &nbsp;·&nbsp; 💼 <a href="https://www.linkedin.com/in/deepansh-agarwal/" style="color:#2f81f7; text-decoration:none;">LinkedIn</a></p>
+
+        <!-- $ ls ./skills -->
+        <h2 style="font-size:24px; font-weight:600; border-bottom:1px solid #21262d; padding-bottom:8px; margin:28px 0 16px; font-family:'JetBrains Mono',monospace; color:#e6edf3;"><span style="color:#7ee787;">$</span> ls ./skills</h2>
+        <div style="display:flex; gap:6px; flex-wrap:wrap;">
+          <img alt="JavaScript" src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black">
+          <img alt="React" src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB">
+          <img alt="Node.js" src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white">
+          <img alt="Express" src="https://img.shields.io/badge/Express-000000?style=for-the-badge&logo=express&logoColor=white">
+          <img alt="MongoDB" src="https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white">
+          <img alt="Java" src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white">
+          <img alt="Python" src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white">
+          <img alt="Socket.io" src="https://img.shields.io/badge/Socket.io-010101?style=for-the-badge&logo=socketdotio&logoColor=white">
+          <img alt="Three.js" src="https://img.shields.io/badge/Three.js-000000?style=for-the-badge&logo=threedotjs&logoColor=white">
+          <img alt="Tailwind" src="https://img.shields.io/badge/Tailwind-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white">
+        </div>
+
+        <!-- $ ls -la ./projects -->
+        <h2 style="font-size:24px; font-weight:600; border-bottom:1px solid #21262d; padding-bottom:8px; margin:28px 0 16px; font-family:'JetBrains Mono',monospace; color:#e6edf3;"><span style="color:#7ee787;">$</span> ls -la ./projects</h2>
+        <div style="color:#6e7681; font-size:12px; font-family:'JetBrains Mono',monospace; margin-bottom:10px;"># live repo cards (auto-update stars/forks on GitHub) — shown as they render:</div>
+        <div style="display:grid; grid-template-columns:1fr 1fr; gap:16px;">
+          <div style="border:1px solid #30363d; border-radius:6px; background:#0d1117; padding:16px;">
+            <div style="display:flex; align-items:center; gap:8px;"><span style="color:#8b949e;">📖</span><span style="color:#3fb950; font-weight:600; font-size:15px;">Chat-App</span></div>
+            <div style="color:#8b949e; font-size:12.5px; margin:10px 0 14px; line-height:1.5;">A fullstack real-time chatting application.</div>
+            <div style="display:flex; gap:14px; color:#8b949e; font-size:12px;"><span style="display:flex; align-items:center; gap:5px;"><span style="width:10px;height:10px;border-radius:50%;background:#f1e05a;"></span>JavaScript</span><span>★ 1</span></div>
+          </div>
+          <div style="border:1px solid #30363d; border-radius:6px; background:#0d1117; padding:16px;">
+            <div style="display:flex; align-items:center; gap:8px;"><span style="color:#8b949e;">📖</span><span style="color:#3fb950; font-weight:600; font-size:15px;">Portfolio-3D</span></div>
+            <div style="color:#8b949e; font-size:12.5px; margin:10px 0 14px; line-height:1.5;">3D Portfolio Website.</div>
+            <div style="display:flex; gap:14px; color:#8b949e; font-size:12px;"><span style="display:flex; align-items:center; gap:5px;"><span style="width:10px;height:10px;border-radius:50%;background:#f1e05a;"></span>JavaScript</span><span>★ 1</span></div>
+          </div>
+          <div style="border:1px solid #30363d; border-radius:6px; background:#0d1117; padding:16px;">
+            <div style="display:flex; align-items:center; gap:8px;"><span style="color:#8b949e;">📖</span><span style="color:#3fb950; font-weight:600; font-size:15px;">ecommerce-app</span></div>
+            <div style="color:#8b949e; font-size:12.5px; margin:10px 0 14px; line-height:1.5;">Fullstack e-commerce website project.</div>
+            <div style="display:flex; gap:14px; color:#8b949e; font-size:12px;"><span style="display:flex; align-items:center; gap:5px;"><span style="width:10px;height:10px;border-radius:50%;background:#f1e05a;"></span>JavaScript</span><span>★ 1</span></div>
+          </div>
+          <div style="border:1px solid #30363d; border-radius:6px; background:#0d1117; padding:16px;">
+            <div style="display:flex; align-items:center; gap:8px;"><span style="color:#8b949e;">📖</span><span style="color:#3fb950; font-weight:600; font-size:15px;">text-to-image-genrator-AI</span></div>
+            <div style="color:#8b949e; font-size:12.5px; margin:10px 0 14px; line-height:1.5;">Text to Image Generator AI using MERN.</div>
+            <div style="display:flex; gap:14px; color:#8b949e; font-size:12px;"><span style="display:flex; align-items:center; gap:5px;"><span style="width:10px;height:10px;border-radius:50%;background:#f1e05a;"></span>JavaScript</span><span>★ 1</span></div>
+          </div>
+          <div style="border:1px solid #30363d; border-radius:6px; background:#0d1117; padding:16px;">
+            <div style="display:flex; align-items:center; gap:8px;"><span style="color:#8b949e;">📖</span><span style="color:#3fb950; font-weight:600; font-size:15px;">Pawn-Shop</span></div>
+            <div style="color:#8b949e; font-size:12.5px; margin:10px 0 14px; line-height:1.5;">Pawn Shop for BITS Pilani.</div>
+            <div style="display:flex; gap:14px; color:#8b949e; font-size:12px;"><span style="display:flex; align-items:center; gap:5px;"><span style="width:10px;height:10px;border-radius:50%;background:#f1e05a;"></span>JavaScript</span><span>★ 1</span></div>
+          </div>
+          <div style="border:1px solid #30363d; border-radius:6px; background:#0d1117; padding:16px;">
+            <div style="display:flex; align-items:center; gap:8px;"><span style="color:#8b949e;">📖</span><span style="color:#3fb950; font-weight:600; font-size:15px;">Authentication</span></div>
+            <div style="color:#8b949e; font-size:12.5px; margin:10px 0 14px; line-height:1.5;">Complete Auth made using MERN — OAuth, email verification.</div>
+            <div style="display:flex; gap:14px; color:#8b949e; font-size:12px;"><span style="display:flex; align-items:center; gap:5px;"><span style="width:10px;height:10px;border-radius:50%;background:#f1e05a;"></span>JavaScript</span><span>★ 1</span></div>
+          </div>
+        </div>
+
+        <!-- $ github-stats --live -->
+        <h2 style="font-size:24px; font-weight:600; border-bottom:1px solid #21262d; padding-bottom:8px; margin:28px 0 16px; font-family:'JetBrains Mono',monospace; color:#e6edf3;"><span style="color:#7ee787;">$</span> github-stats --live</h2>
+        <div style="color:#6e7681; font-size:12px; font-family:'JetBrains Mono',monospace; margin-bottom:10px;"># live stats cards (auto-update on GitHub) — shown as they render:</div>
+        <div style="display:flex; flex-wrap:wrap; gap:16px;">
+          <div style="flex:1.4; min-width:300px; border:1px solid #30363d; border-radius:6px; padding:18px 20px; background:#0d1117;">
+            <div style="color:#3fb950; font-weight:600; font-size:15px; margin-bottom:16px; font-family:'JetBrains Mono',monospace;">Deepansh's GitHub Stats</div>
+            <div style="display:flex; align-items:center; gap:18px;">
+              <div style="flex:1; display:flex; flex-direction:column; gap:9px; font-size:13px;">
+                <div style="display:flex;justify-content:space-between;gap:12px;white-space:nowrap;"><span style="color:#c9d1d9;">★ Total Stars Earned</span><span style="color:#e6edf3;font-weight:600;">6</span></div>
+                <div style="display:flex;justify-content:space-between;gap:12px;white-space:nowrap;"><span style="color:#c9d1d9;">◉ Total Commits (2026)</span><span style="color:#e6edf3;font-weight:600;">480</span></div>
+                <div style="display:flex;justify-content:space-between;gap:12px;white-space:nowrap;"><span style="color:#c9d1d9;">⇄ Total PRs</span><span style="color:#e6edf3;font-weight:600;">24</span></div>
+                <div style="display:flex;justify-content:space-between;gap:12px;white-space:nowrap;"><span style="color:#c9d1d9;">⊙ Total Issues</span><span style="color:#e6edf3;font-weight:600;">12</span></div>
+                <div style="display:flex;justify-content:space-between;gap:12px;white-space:nowrap;"><span style="color:#c9d1d9;">▤ Contributed to</span><span style="color:#e6edf3;font-weight:600;">8</span></div>
+              </div>
+              <div style="width:74px;height:74px;border-radius:50%;background:conic-gradient(#3fb950 0% 82%, #21262d 82% 100%);display:flex;align-items:center;justify-content:center;flex:0 0 auto;">
+                <div style="width:58px;height:58px;border-radius:50%;background:#0d1117;display:flex;align-items:center;justify-content:center;font-weight:700;font-size:19px;color:#3fb950;">A+</div>
+              </div>
+            </div>
+          </div>
+          <div style="flex:1; min-width:240px; border:1px solid #30363d; border-radius:6px; padding:18px 20px; background:#0d1117;">
+            <div style="color:#3fb950; font-weight:600; font-size:15px; margin-bottom:16px; font-family:'JetBrains Mono',monospace;">Most Used Languages</div>
+            <div style="display:flex; flex-direction:column; gap:12px;">
+              <div><div style="display:flex;justify-content:space-between;font-size:12.5px;margin-bottom:5px;"><span style="color:#c9d1d9;">JavaScript</span><span style="color:#8b949e;">62%</span></div><div style="height:8px;border-radius:4px;background:#21262d;overflow:hidden;"><span style="display:block;height:100%;width:62%;background:#f1e05a;"></span></div></div>
+              <div><div style="display:flex;justify-content:space-between;font-size:12.5px;margin-bottom:5px;"><span style="color:#c9d1d9;">Python</span><span style="color:#8b949e;">16%</span></div><div style="height:8px;border-radius:4px;background:#21262d;overflow:hidden;"><span style="display:block;height:100%;width:16%;background:#3572A5;"></span></div></div>
+              <div><div style="display:flex;justify-content:space-between;font-size:12.5px;margin-bottom:5px;"><span style="color:#c9d1d9;">Java</span><span style="color:#8b949e;">12%</span></div><div style="height:8px;border-radius:4px;background:#21262d;overflow:hidden;"><span style="display:block;height:100%;width:12%;background:#b07219;"></span></div></div>
+              <div><div style="display:flex;justify-content:space-between;font-size:12.5px;margin-bottom:5px;"><span style="color:#c9d1d9;">HTML / CSS</span><span style="color:#8b949e;">10%</span></div><div style="height:8px;border-radius:4px;background:#21262d;overflow:hidden;"><span style="display:block;height:100%;width:10%;background:#e34c26;"></span></div></div>
+            </div>
+          </div>
+        </div>
+        <div style="margin-top:16px; border:1px solid #30363d; border-radius:6px; background:#0d1117; display:flex; align-items:stretch;">
+          <div style="flex:1; text-align:center; padding:20px 12px;">
+            <div style="font-size:30px;font-weight:700;color:#e6edf3;">520</div>
+            <div style="color:#c9d1d9;font-size:12.5px;margin-top:4px;">Total Contributions</div>
+            <div style="color:#6e7681;font-size:11px;margin-top:2px;">2023 - Present</div>
+          </div>
+          <div style="flex:1; text-align:center; padding:20px 12px; border-left:1px solid #21262d; border-right:1px solid #21262d;">
+            <div style="width:64px;height:64px;margin:0 auto;border-radius:50%;border:2px solid #f0883e;box-shadow:0 0 16px rgba(240,136,62,.35);display:flex;align-items:center;justify-content:center;font-size:24px;font-weight:700;color:#f0883e;">5</div>
+            <div style="color:#f0883e;font-size:12.5px;margin-top:8px;font-weight:600;">Current Streak</div>
+            <div style="color:#6e7681;font-size:11px;margin-top:2px;">Jun 28 - Jul 2</div>
+          </div>
+          <div style="flex:1; text-align:center; padding:20px 12px;">
+            <div style="font-size:30px;font-weight:700;color:#e6edf3;">21</div>
+            <div style="color:#c9d1d9;font-size:12.5px;margin-top:4px;">Longest Streak</div>
+            <div style="color:#6e7681;font-size:11px;margin-top:2px;">Mar 2026</div>
+          </div>
+        </div>
+
+        <!-- $ git log --graph --snake -->
+        <h2 style="font-size:24px; font-weight:600; border-bottom:1px solid #21262d; padding-bottom:8px; margin:28px 0 16px; font-family:'JetBrains Mono',monospace; color:#e6edf3;"><span style="color:#7ee787;">$</span> git log --graph --snake</h2>
+        <div style="border:1px dashed #30363d; border-radius:8px; padding:28px; text-align:center; background:#0d1117;">
+          <div style="display:flex; gap:3px; justify-content:center; opacity:.65;">{{ snakeGrid }}</div>
+          <div style="color:#6e7681; font-size:13px; margin-top:14px; font-family:'JetBrains Mono',monospace;">🐍 animated contribution snake · appears here once you enable the GitHub Action (snake.yml)</div>
+        </div>
+
+        <!-- $ ./contact.sh -->
+        <h2 style="font-size:24px; font-weight:600; border-bottom:1px solid #21262d; padding-bottom:8px; margin:28px 0 16px; font-family:'JetBrains Mono',monospace; color:#e6edf3;"><span style="color:#7ee787;">$</span> ./contact.sh</h2>
+        <div style="display:flex; gap:8px; flex-wrap:wrap;">
+          <img alt="Portfolio" src="https://img.shields.io/badge/Portfolio-3fb950?style=for-the-badge&logo=vercel&logoColor=white">
+          <img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-1f6feb?style=for-the-badge&logo=linkedin&logoColor=white">
+          <img alt="Email" src="https://img.shields.io/badge/Email-e3b341?style=for-the-badge&logo=gmail&logoColor=black">
+          <img alt="GitHub" src="https://img.shields.io/badge/GitHub-161b22?style=for-the-badge&logo=github&logoColor=white">
+        </div>
+
+        <hr style="border:none; border-top:1px solid #21262d; margin:28px 0 20px;">
+        <div style="text-align:center;">
+          <img alt="views" src="https://komarev.com/ghpvc/?username=DeepanshAgarwal&label=profile%20views&color=238636&style=flat">
+          <div style="color:#6e7681; font-size:13px; margin-top:10px; font-family:'JetBrains Mono',monospace;">echo "thanks for scrolling — let's build something"</div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script>
+class Component extends DCLogic {
+  buildGrid() {
+    const cols = 38, rows = 7;
+    const palette = ['#161b22', '#0e4429', '#006d32', '#26a641', '#39d353'];
+    const colEls = [];
+    for (let x = 0; x < cols; x++) {
+      const cells = [];
+      for (let y = 0; y < rows; y++) {
+        const lvl = Math.floor(Math.pow(Math.random(), 1.7) * 5);
+        cells.push(React.createElement('span', { key: y, style: { width: '10px', height: '10px', borderRadius: '2px', background: palette[lvl] } }));
+      }
+      colEls.push(React.createElement('div', { key: x, style: { display: 'flex', flexDirection: 'column', gap: '3px' } }, cells));
+    }
+    return React.createElement('div', { style: { display: 'flex', gap: '3px' } }, colEls);
+  }
+  renderVals() {
+    this._grid = this._grid || this.buildGrid();
+    return { snakeGrid: this._grid };
+  }
+}
+</script>
+</body>
+</html>

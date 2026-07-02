@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 556" width="860" height="556" font-family="&#39;Courier New&#39;, ui-monospace, monospace">
+  <defs>
+    <clipPath id="win"><rect x="1" y="1" width="858" height="554" rx="14"></rect></clipPath>
+    <clipPath id="type">
+      <rect x="52" y="502" width="0" height="26">
+        
+      </rect>
+    </clipPath>
+  </defs>
+
+  <g clip-path="url(#win)">
+    <rect width="860" height="556" fill="#0d1117"></rect>
+
+    
+    <rect width="860" height="40" fill="#010409"></rect>
+    <circle cx="26" cy="20" r="6" fill="#ff5f56"></circle>
+    <circle cx="48" cy="20" r="6" fill="#ffbd2e"></circle>
+    <circle cx="70" cy="20" r="6" fill="#27c93f"></circle>
+    <text x="430" y="25" text-anchor="middle" font-size="13" fill="#6e7681">deepansh@github: ~/profile</text>
+
+    
+    <text x="34" y="74" font-size="14" fill="#3fb950" xml:space="preserve"><tspan x="34" dy="0">  ____                                    _</tspan><tspan x="34" dy="15"> |  _ \  ___  ___ _ __   __ _ _ __  ___  | |__</tspan><tspan x="34" dy="15"> | | | |/ _ \/ _ \ &#39;_ \ / _` | &#39;_ \/ __| | &#39;_ \</tspan><tspan x="34" dy="15"> | |_| |  __/  __/ |_) | (_| | | | \__ \ | | | |</tspan><tspan x="34" dy="15"> |____/ \___|\___| .__/ \__,_|_| |_|___/ |_| |_|</tspan><tspan x="34" dy="15">                 |_|</tspan></text>
+
+    
+    <text x="34" y="190" font-size="14"><tspan fill="#7ee787">visitor@profile</tspan><tspan fill="#c9d1d9">:</tspan><tspan fill="#58a6ff">~</tspan><tspan fill="#c9d1d9">$ </tspan><tspan fill="#e6edf3">whoami</tspan></text>
+
+    
+    <text x="34" y="228" font-family="Verdana, Geneva, sans-serif" font-weight="700" font-size="29" fill="#e6edf3">Deepansh Agarwal</text>
+    <text x="34" y="254" font-size="13" fill="#58a6ff">@DeepanshAgarwal · 1 follower · Pro</text>
+
+    
+    <g font-size="11.5">
+      <rect x="34" y="268" width="128" height="23" rx="11.5" fill="#0d1117" stroke="#238636"></rect>
+      <text x="98" y="284" text-anchor="middle" fill="#3fb950">Full-Stack Eng</text>
+      <rect x="172" y="268" width="66" height="23" rx="11.5" fill="#0d1117" stroke="#1f6feb"></rect>
+      <text x="205" y="284" text-anchor="middle" fill="#58a6ff">MERN</text>
+      <rect x="248" y="268" width="104" height="23" rx="11.5" fill="#0d1117" stroke="#9e6a03"></rect>
+      <text x="300" y="284" text-anchor="middle" fill="#e3b341">BITS Pilani</text>
+    </g>
+
+    
+    <text x="34" y="330" font-size="14"><tspan fill="#7ee787">visitor@profile</tspan><tspan fill="#c9d1d9">:</tspan><tspan fill="#58a6ff">~</tspan><tspan fill="#c9d1d9">$ </tspan><tspan fill="#e6edf3">cat about.md</tspan></text>
+    <text x="34" y="356" font-size="13" fill="#c9d1d9">Full-Stack Engineer building real-time &amp; AI web apps on the MERN stack, with Java &amp;</text>
+    <text x="34" y="376" font-size="13" fill="#c9d1d9">Python in the toolbox. I ship end-to-end products and learn by building.</text>
+
+    
+    <text x="34" y="418" font-size="14"><tspan fill="#7ee787">visitor@profile</tspan><tspan fill="#c9d1d9">:</tspan><tspan fill="#58a6ff">~</tspan><tspan fill="#c9d1d9">$ </tspan><tspan fill="#e6edf3">./now.sh</tspan></text>
+    <text x="34" y="444" font-size="13"><tspan fill="#3fb950">▸ </tspan><tspan fill="#c9d1d9">Building an AI text-to-image generator on the MERN stack</tspan></text>
+    <text x="34" y="464" font-size="13"><tspan fill="#3fb950">▸ </tspan><tspan fill="#c9d1d9">Deepening system design &amp; scalable backend patterns</tspan></text>
+    <text x="34" y="484" font-size="13"><tspan fill="#3fb950">▸ </tspan><tspan fill="#c9d1d9">Learning TypeScript &amp; Next.js · open to internships</tspan></text>
+
+    
+    <text x="34" y="521" font-size="15" fill="#3fb950">&gt;</text>
+    <g clip-path="url(#type)">
+      <text x="52" y="521" font-size="15" fill="#e6edf3">MERN · Java · Python · real-time + AI builder</text>
+    </g>
+    <rect x="52" y="507" width="9" height="17" fill="#3fb950">
+      
+      
+    </rect>
+  </g>
+
+  <rect x="1" y="1" width="858" height="554" rx="14" fill="none" stroke="#30363d"></rect>
+</svg>
